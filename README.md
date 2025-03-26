@@ -1,5 +1,8 @@
 # House Price Prediction
 
+This project is inspired from the https://docs.google.com/document/d/1-CQHiW1V2yzZB0NS2lOPA8A7udNoUF8p884Q14J13q8/mobilebasic list of Machine Learning projects.
+The goal is to build a regression model to predict house prices based on features like size, location, and number of rooms.
+
 ## Table of Contents
 - [Previous Configurations](#previous-configurations)
 - [EDA](#eda)
