@@ -57,19 +57,19 @@ pip install -r requirements.txt
 
 The `.env` file needs to have the following environmental variables for the script to work properly:
 
-- ``: 
+- `TEST_DATA`: Dataset containing 80 columns excluding the classified value `SalePrice` from the training set.
+- `TRAIN_DATA`: Dataset containing the previously mentioned amount of columns and `SalePrice` as the classification value to be trained from.
 
 Your `.env` file should look like this:
 
 ``` textplain
-
+    TEST_DATA = "data\input\test.csv"
+    TRAIN_DATA = "data\input\train.csv"
 ```
 
 ### Input data
 
-The input data that used is from 
-
-- ``: 
+The input data that used is from the House Prices - Advanced Regression Techniques dataset from Kaggle (https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data?select=data_description.txt). This source already divides the dataset into training and tests sets for us to utilize as well as descriptions for the columns.
 
 ### Installation
 
