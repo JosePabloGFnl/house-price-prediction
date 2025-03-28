@@ -102,6 +102,7 @@ The input data that used is from the House Prices - Advanced Regression Techniqu
 There's a large series of rows with missing data in several columns, we will fill categorical features with 'None' and numerical with '0' due to them not being feasible for removal or other Null Handling methods like filling with median.
 
 ## FE
+Scaler for numerical features and One Hot Encoder for categorical features to fit the data.
 
 ## Model
 
