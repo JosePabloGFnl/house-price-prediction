@@ -8,7 +8,6 @@ The goal is to build a regression model to predict house prices based on feature
 - [EDA](#eda)
 - [FE](#fe)
 - [Model](#model)
-- [Procedure](#procedure)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -100,69 +99,11 @@ The input data that used is from the House Prices - Advanced Regression Techniqu
     ```
     
 ## EDA
-
+There's a large series of rows with missing data in several columns, we will fill categorical features with 'None' and numerical with '0' due to them not being feasible for removal or other Null Handling methods like filling with median.
 
 ## FE
 
 ## Model
-
-## Procedure
-
-1. **Import Libraries**:
-    ```python
-
-    ```
-
-2. **Set Environment Variables**:
-
-
-3. **Validate Environment Variables**:
-    Check if the environment variables are set and raise an error if they are not:
-    ```python
-
-    ```
-
-4. **Check File Existence**:
-    Verify that the file exists at the specified path:
-    ```python
-
-    ```
-
-5. **Load Data**:
-    Load the data from the specified Excel file and sheet into a pandas DataFrame:
-    ```python
-
-    ```
-
-6. **Data Preprocessing**:
-    Perform necessary data preprocessing steps such as handling missing values, encoding categorical variables, and scaling numerical features:
-    ```python
-
-    ```
-
-7. **Train-Test Split**:
-    Split the data into training and testing sets:
-    ```python
-
-    ```
-
-8. **Model Training**:
-    Train a machine learning model (e.g., Logistic Regression) on the training data:
-    ```python
-
-    ```
-
-9. **Model Evaluation**:
-    Evaluate the model on the testing data and print the classification report and confusion matrix:
-    ```python
-
-    ```
-
-10. **Data Visualization**:
-    Use `matplotlib` and `seaborn` to visualize the data and the results:
-    ```python
-
-    ```
 
 ## Contributing
 
