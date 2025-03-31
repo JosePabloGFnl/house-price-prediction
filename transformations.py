@@ -14,12 +14,14 @@ class Transformations:
         )
 
     def null_handler(self, data):
-        data = data.copy()  # Avoid modifying original DataFrame
         for col in self.categorical_features:
             data[col].fillna("None", inplace=True)
+
         for col in self.numerical_features:
-            data[col].fillna(0, inplace=True)
+            data[col].fillna(data[col].median(), inplace=True)  # Use median instead of 0
+        
         return data
+
 
     def fit_transform(self, data):
         data = self.null_handler(data)
